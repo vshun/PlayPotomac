@@ -1,0 +1,149 @@
+           <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               xmlns:tools="http://schemas.android.com/tools"
+               android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/noaaData">
+ 			<TableLayout 
+				android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:stretchColumns="0">
+	   		 <TableRow android:layout_width="match_parent">
+		        <TextView style="@style/TableHeaderField" android:text="Day"
+                    tools:ignore="HardcodedText" />
+		        <TextView style="@style/TableHeaderField" android:text="Forecast"
+                    tools:ignore="HardcodedText" />
+		        <TextView style="@style/TableHeaderField" android:text="Trend"
+                    tools:ignore="HardcodedText" />
+		        <TextView style="@style/TableHeaderField" android:text="Playspot"
+                    tools:ignore="HardcodedText" />
+		        <TextView style="@style/TableHeaderField" android:text="Air (L/H)"
+                    tools:ignore="HardcodedText" />
+		    </TableRow>    
+			<View style="@style/Divider"/> 			
+	   		 <TableRow android:layout_width="match_parent">
+		        <TextView android:id="@+id/DayofWeek0" android:padding="5dip"/>
+
+				 <TextView
+					 android:id="@+id/Level0"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+
+				 <TextView
+					 android:id="@+id/Trend0"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+		        <TextView android:padding="5dip" android:id="@+id/Playspot0"/>
+
+				 <TextView
+					 android:id="@+id/Temp0"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+			</TableRow>    
+	   		 <TableRow android:layout_width="match_parent">
+		        <TextView android:padding="5dip" android:id="@+id/DayofWeek1"/>
+
+				 <TextView
+					 android:id="@+id/Level1"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+
+				 <TextView
+					 android:id="@+id/Trend1"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+   		        <TextView android:id="@+id/Playspot1" android:padding="5dip"/>
+
+				 <TextView
+					 android:id="@+id/Temp1"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+		    </TableRow>      		
+	   		 <TableRow android:layout_width="match_parent">
+		        <TextView android:id="@+id/DayofWeek2" android:padding="5dip" />
+
+				 <TextView
+					 android:id="@+id/Level2"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+
+				 <TextView
+					 android:id="@+id/Trend2"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+		        <TextView android:id="@+id/Playspot2" android:padding="5dip"/>
+
+				 <TextView
+					 android:id="@+id/Temp2"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+		    </TableRow>  
+	   		 <TableRow android:layout_width="match_parent">
+		        <TextView android:id="@+id/DayofWeek3" android:padding="5dip" />
+
+				 <TextView
+					 android:id="@+id/Level3"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+
+				 <TextView
+					 android:id="@+id/Trend3"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+		        <TextView android:id="@+id/Playspot3" android:padding="5dip"/>
+
+				 <TextView
+					 android:id="@+id/Temp3"
+					 android:padding="5dip"
+					 android:textSize="18sp" />
+		    </TableRow>      	    				  	 	      			
+			</TableLayout>	
+		   <View android:layout_width="match_parent" android:layout_height="15dip"/>   			
+		   <View style="@style/Divider"/>   			
+			<TableLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+	   		 <TableRow android:layout_width="match_parent">
+		        <TextView style="@style/WeightedTableHeaderField" android:text="Observed"
+                    tools:ignore="HardcodedText" />
+		        <TextView style="@style/WeightedTableHeaderField" android:text="Level"
+                    tools:ignore="HardcodedText" />
+			    <TextView style="@style/WeightedTableHeaderField" android:text="Change"
+                    tools:ignore="HardcodedText" />
+		    </TableRow>    
+			<View style="@style/Divider"/>
+	   		<TableRow android:layout_width="match_parent">
+		        <TextView android:text="Last" style="@style/TableElement"
+                    tools:ignore="HardcodedText" />
+		        <TextView android:id="@+id/lastLevel" style="@style/TableElement"/>
+		        <TextView android:id="@+id/change0Hr" style="@style/TableElement"/>	            
+			 </TableRow>   
+	   		 <TableRow android:layout_width="match_parent">
+		        <TextView android:text="6 Hrs ago" style="@style/TableElement"
+                    tools:ignore="HardcodedText" />
+		        <TextView android:id="@+id/level6Hr" style="@style/TableElement"/>
+		        <TextView android:id="@+id/change6Hr" style="@style/TableElement"/>		            
+			 </TableRow>   
+	   		 <TableRow android:layout_width="match_parent">
+		        <TextView android:text="12 Hrs ago"	style="@style/TableElement"
+                    tools:ignore="HardcodedText" />
+		        <TextView android:id="@+id/level12Hr" style="@style/TableElement"/>
+		        <TextView android:id="@+id/change12Hr" style="@style/TableElement"/>          
+			 </TableRow>   	
+	   		 <TableRow android:layout_width="match_parent">
+		        <TextView android:text="24 Hrs ago" style="@style/TableElement"
+                    tools:ignore="HardcodedText" />
+		        <TextView android:id="@+id/level24Hr" style="@style/TableElement"/>
+		        <TextView android:id="@+id/change24Hr" style="@style/TableElement"/>          
+			 </TableRow>   			 		 
+			</TableLayout> 	
+			<LinearLayout 
+			    android:id="@+id/noaaProgress"
+        		android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:gravity="center"
+		        android:orientation="vertical"
+		        android:visibility="gone">
+				<ProgressBar
+			         android:layout_width="wrap_content"
+			         android:layout_height="wrap_content"
+			         style="@android:style/Widget.ProgressBar.Small"
+			         android:layout_marginRight="5dp"
+					tools:ignore="RtlHardcoded" />
+			 </LinearLayout>			    			
+		</LinearLayout>		

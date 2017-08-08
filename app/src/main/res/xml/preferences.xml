@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="River settings">
+	<ListPreference
+           android:title="Forecast time of day"
+           android:summary="Set to fetch forecast for morning or afternoon"
+           android:key="forecastPref"
+           android:defaultValue="@string/default_time"
+           android:entries="@array/forecastPrefsArray"
+           android:entryValues="@array/forecastPrefsValues"/>
+    <ListPreference
+           android:title="Playspots"
+           android:summary="Display playspots by boat type (to be confirmed by experts))"
+           android:key="playspotsPref"
+           android:defaultValue="@string/default_boat"
+           android:entries="@array/playspotsPrefsArray"
+           android:entryValues="@array/playspotsPrefsValues"/>
+ </PreferenceCategory>
+ </PreferenceScreen>

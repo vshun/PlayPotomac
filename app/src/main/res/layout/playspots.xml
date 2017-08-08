@@ -1,0 +1,24 @@
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical" android:id="@+id/playspotsTab"
+             android:layout_height="fill_parent" android:layout_width="fill_parent">      
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/headerTable">
+        <TableRow android:layout_width="match_parent" android:id="@+id/headerRow"
+			tools:ignore="UselessParent">
+        	<TextView android:text="Name" style="@style/WeightedTableHeaderField"
+                tools:ignore="HardcodedText" />
+	     	<TextView android:text="From" style="@style/TableHeaderFieldPadding"
+                tools:ignore="HardcodedText" />
+	       	<TextView android:text="To" style="@style/TableHeaderFieldPadding"
+                tools:ignore="HardcodedText" />
+	       	<TextView android:text="Best" style="@style/TableHeaderFieldPadding"
+                tools:ignore="HardcodedText" />
+	       	<TextView android:text="Class" style="@style/TableHeaderFieldPadding"
+                tools:ignore="HardcodedText" />
+	     </TableRow>
+	     </TableLayout>  	
+         <View style="@style/Divider"/>
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/playspotsData"/>
+		    	          
+        </LinearLayout>   
+		

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="forecastPrefsArray">
+ 		<item>Morning</item>
+        <item>Afternoon</item>
+ </string-array>
+<string-array name="forecastPrefsValues">
+		<item>12:00:00–00:00</item>
+		<item>18:00:00–00:00</item>
+</string-array>	
+<string-array name="playspotsPrefsArray">
+ 		<item>All</item>
+        <item>Playboat</item>
+        <item>Long boat</item>
+</string-array>
+<string-array name="playspotsPrefsValues">
+ 		<item>All</item>
+        <item>Short</item>
+        <item>Long</item>
+</string-array>
+</resources>

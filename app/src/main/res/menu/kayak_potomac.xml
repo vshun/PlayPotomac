@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="@string/menurefresh" android:id="@+id/refresh" android:icon="@drawable/ic_menu_refresh"  android:showAsAction="ifRoom" />
+	<item android:title="@string/menupreferences" android:id="@+id/preferences" android:icon="@drawable/ic_menu_preferences"/>
+	<item android:title="@string/menuabout" android:id="@+id/about" android:icon="@drawable/ic_menu_view"/>
+	<item android:title="@string/menuexit" android:id="@+id/exit" android:icon="@drawable/ic_menu_close_clear_cancel"/>
+</menu>

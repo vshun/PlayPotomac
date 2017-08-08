@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playspots>
+	<playspot>
+		<name>Horseshoe</name>
+		<min>2.6</min>
+		<max>2.9</max>
+		<best>2.8</best>
+		<class>3</class>
+		<boat>All</boat>
+	</playspot>	
+	<playspot>
+		<name>Maryland Chute</name>
+		<min>2.8</min>
+		<max>3.9</max>
+		<best>3.6</best>
+		<class>2</class>
+		<boat>All</boat>
+	</playspot>	
+	<playspot>
+		<name>Portage hole</name>
+		<min>3.9</min>
+		<max>4.1</max>
+		<best>4.0</best>
+		<class>2</class>
+		<boat>Short</boat>
+	</playspot>				
+	<playspot>
+		<name>Upper Chute Ledge</name>
+		<min>4.1</min>
+		<max>4.8</max>
+		<best>4.6</best>
+		<class>3</class>
+		<boat>Short</boat>
+	</playspot>	
+	<playspot>
+		<name>Offut Wave</name>
+		<min>4.1</min>
+		<max>5.2</max>
+		<best>4.9</best>
+		<class>1</class>
+		<boat>All</boat>
+	</playspot>	
+		<playspot>
+		<name>Central Chute</name>
+		<min>5.2</min>
+		<max>6.0</max>
+		<best>5.3</best>
+		<class>3</class>
+		<boat>All</boat>	
+	</playspot>	
+	<playspot>
+		<name>Wet Bottom</name>
+		<min>2.8</min>
+		<max>4.2</max>
+		<best>3.7</best>
+		<class>3</class>
+		<boat>All</boat>
+	</playspot>		
+	<playspot>
+		<name>O-Deck 3</name>
+		<min>2.7</min>
+		<max>3.0</max>
+		<best>2.8</best>
+		<class>3</class>
+		<boat>Short</boat>
+	</playspot>		
+	<playspot>
+		<name>Virginia Chute</name>
+		<min>3.0</min>
+		<max>3.9</max>
+		<best>3.3</best>
+		<class>2</class>
+		<boat>All</boat>
+	</playspot>	
+	<playspot>
+		<name>S-Turn</name>
+		<min>3.5</min>
+		<max>3.9</max>
+		<best>3.9</best>
+		<class>4</class>
+		<boat>All</boat>
+	</playspot>	
+	<playspot>
+		<name>O-Deck 1</name>
+		<min>3.6</min>
+		<max>3.8</max>
+		<best>3.7</best>
+		<class>3</class>
+		<boat>Long</boat>
+	</playspot>
+	<playspot>
+		<name>Rocky Island</name>
+		<min>3.9</min>
+		<max>4.6</max>
+		<best>4.1</best>
+		<class>3</class>
+		<boat>Long</boat>
+	</playspot>	
+	<playspot>
+		<name>Dave's Wave</name>
+		<min>6.1</min>
+		<max>6.5</max>
+		<best>6.3</best>
+		<class>4</class>
+		<boat>Short</boat>
+	</playspot>	
+	<playspot>
+		<name>Super Dave's Wave</name>
+		<min>6.6</min>
+		<max>7.0</max>
+		<best>6.8</best>
+		<class>3</class>
+		<boat>All</boat>
+	</playspot>
+	<playspot>		
+		<name>Corner Hole</name>
+		<min>7.2</min>
+		<max>8</max>
+		<best>7.8</best>
+		<class>4</class>
+		<boat>All</boat>	
+	</playspot>	
+	<playspot>
+		<name>Dead Cow Hole</name>
+		<min>7.5</min>
+		<max>8.9</max>
+		<best>8.3</best>
+		<class>3</class>
+		<boat>Short</boat>
+	</playspot>		
+	<playspot>
+		<name>Bloody Good</name>
+		<min>2.8</min>
+		<max>3.3</max>
+		<best>2.9</best>
+		<class>4</class>
+		<boat>All</boat>
+	</playspot>
+	<playspot>
+		<name>Butt Hole</name>
+		<min>7.9</min>
+		<max>8.8</max>
+		<best>8.5</best>
+		<class>3</class>
+		<boat>All</boat>
+	</playspot>	
+	<playspot>
+		<name>Portage wave</name>
+		<min>2.5</min>
+		<max>2.9</max>
+		<best>2.8</best>
+		<class>2</class>
+		<boat>Long</boat>
+	</playspot>		
+	<playspot>
+		<name>Skull Island Wave</name>
+		<min>6</min>
+		<max>7.6</max>
+		<best>6.3</best>
+		<class>3</class>
+		<boat>Long</boat>
+	</playspot>			
+</playspots>
